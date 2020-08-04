@@ -25,6 +25,12 @@
           "artist": "Beethoven",
           "genre": "Classical",
           "duration": 4
+        },
+        {
+          "id": "4bc94020-d68b-11ea-a0a0-fdd85e0eb22b",
+          "title": "project",
+          "artist": "The Dubliners",
+          "duration": "1.9"
         }
       ]
     },
