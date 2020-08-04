@@ -1,12 +1,13 @@
-'use strict';
+"use strict";
 
-const _ = require('lodash');
-const JsonStore = require('./json-store');
+const _ = require("lodash");
+const JsonStore = require("./json-store");
 
 const playlistStore = {
-
-  store: new JsonStore('./models/playlist-store.json', { playlistCollection: [] }),
-  collection: 'playlistCollection',
+  store: new JsonStore("./models/playlist-store.json", {
+    playlistCollection: []
+  }),
+  collection: "playlistCollection",
 
   getAllPlaylists() {
     return this.store.findAll(this.collection);
@@ -41,9 +42,9 @@ const playlistStore = {
   removeSong(id, songId) {
     const playlist = this.getPlaylist(id);
     const songs = playlist.songs;
-    _.remove(songs, { id: songId});
+    _.remove(songs, { id: songId });
     this.store.save();
-  },
+  }
 };
 
 module.exports = playlistStore;

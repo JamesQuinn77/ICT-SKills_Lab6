@@ -1,9 +1,4 @@
-Welcome to the Glitch Template 1
-================================
+Welcome to the Playlist 3
+=========================
 
-A starter project for learning Glitch.
-
-This is an Express.js project, designed to work well with the Glitch development environment. It includes basic express setup, templating, routing and session support.
-
-Something
-
+Version 3 of the Playlist application

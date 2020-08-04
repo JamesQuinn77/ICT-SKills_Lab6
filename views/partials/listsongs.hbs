@@ -4,7 +4,7 @@
       <th>Song</th>
       <th>Artist</th>
       <th>Duration</th>
-      <th>Genre</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -20,10 +20,9 @@
           {{duration}}
         </td>
         <td>
-          {{genre}}
-        </td>
-          <td>
-          <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button"><i class="icon trash"></i></a>
+          <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button">
+            <i class="icon trash"></i>
+          </a>
         </td>
       </tr>
     {{/each}}
