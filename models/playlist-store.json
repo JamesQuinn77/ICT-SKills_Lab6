@@ -1,0 +1,84 @@
+{
+  "playlistCollection": [
+    {
+      "id":"01",
+      "title": "Beethoven Sonatas",
+      "songs": [
+        {
+          "id":"02",
+          "title": "Piano Sonata No. 3",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"03",
+          "title": "Piano Sonata No. 7",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"04",
+          "title": "Piano Sonata No. 10",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        }
+      ]
+    },
+    {
+      "id":"05",
+      "title": "Beethoven Concertos",
+      "songs": [
+        {
+          "id":"06",
+          "title": "Piano Concerto No. 0",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"07",
+          "title": "Piano Concerto No. 4",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"08",
+          "title": "Piano Concerto No. 6",
+          "artist": "Beethoven",
+          "duration": 1.50,
+          "genre": "rock"
+        }
+      ]
+    },
+    {
+      "id":"09",
+      "title": "Kayne West",
+      "songs": [
+        {
+          "id":"10",
+          "title": "Diamonds",
+          "artist": "Kayne West",
+          "duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"11",
+          "title": "Gold Digger",
+          "artist": "Kayne West","duration": 1.50,
+          "genre": "rock"
+        },
+        {
+          "id":"12",
+          "title": "Stronger",
+          "artist": "Kayne West",
+          "duration": 1.50,
+          "genre": "rock"
+        }
+      ]
+    }
+  ]
+}
