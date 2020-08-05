@@ -31,6 +31,18 @@
           "title": "project",
           "artist": "The Dubliners",
           "duration": "1.9"
+        },
+        {
+          "id": "aec93cb0-d754-11ea-ab71-b3feb7f20bee",
+          "title": "sdfkjdfs",
+          "artist": "sdfasf",
+          "duration": 0
+        },
+        {
+          "id": "b5a4c2c0-d754-11ea-ab71-b3feb7f20bee",
+          "title": "asdf",
+          "artist": "asdf",
+          "duration": 5.89
         }
       ]
     },
@@ -63,6 +75,25 @@
           "artist": "as"
         }
       ]
+    },
+    {
+      "id": "c7eb4fd0-d759-11ea-891c-4f8989107814",
+      "title": "New Playlist",
+      "songs": [
+        {
+          "id": "d022e370-d759-11ea-891c-4f8989107814",
+          "title": "sdf",
+          "artist": "The Dubliners",
+          "duration": 5.89
+        },
+        {
+          "id": "adf1f5e0-d75c-11ea-b394-c9a8a1890f1c",
+          "title": "sdg",
+          "artist": "sdfg",
+          "duration": 2.9
+        }
+      ],
+      "duration": 8.79
     }
   ]
 }

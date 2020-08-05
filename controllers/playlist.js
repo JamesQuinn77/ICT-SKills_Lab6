@@ -30,7 +30,7 @@ const playlist = {
       id: uuid.v1(),
       title: request.body.title,
       artist: request.body.artist,
-      duration: request.body.duration
+      duration: Number(request.body.duration),
     };
     logger.debug("New Song = ", newSong);
     playlistStore.addSong(playlistId, newSong);

@@ -33,9 +33,27 @@ const playlistStore = {
     this.store.save();
   },
 
-  addSong(id, song) {
+  // addSong(id, song) {
+  //   const playlist = this.getPlaylist(id);
+  //   playlist.songs.push(song);
+  //   let duration = 0;
+  //   var i = 0;
+  //   for(playlist.duration.size<=i;i++;){
+  //     playlist.duration[i] += duration;
+  //   }
+  //   this.store.save();
+  // },
+  
+    addSong(id, song) {
     const playlist = this.getPlaylist(id);
     playlist.songs.push(song);
+
+    let duration = 0;
+    for (let i = 0; i < playlist.songs.length; i++) {
+      duration += playlist.songs[i].duration;
+    }
+
+    playlist.duration = duration;
     this.store.save();
   },
 
